@@ -1,6 +1,6 @@
 jugador = int(input("Introduzca un número"))
 def ddg(jugador):
-    jugadores = ["Juan", "Jose", "Maria", "Pedro"]
+    jugadores = ["Juan", "Jose", "Maria", "Pedro", "Lorena"]
     for i in range(len(jugadores)):
         if i == jugador:
             return(jugadores[i])
